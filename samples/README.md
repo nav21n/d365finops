@@ -13,3 +13,13 @@ that is set to 'Yes'. This flag sets the Address and the contact fields as non-e
 the user is to enter atleast addresses and contacts that are of that type non-primary. Through this piece of X++ code, the user
 can enter non-primary addresses and contacts in Finance and Operations.
 
+Extensions Used:
+#Data Entities:
+  CustCustomerV3Entity.DMOSamp
+
+#Staging Table Used:
+  CustCustomerV3Staging.DMOSamp
+
+#Event Handler Used:
+  DMO_CustTableFrm_EventHandler
+
