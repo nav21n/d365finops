@@ -12,6 +12,10 @@ Once the data flows in through the CustCustomerV3Entity used for data integratio
 that is set to 'Yes'. This flag sets the Address and the contact fields as non-editable (primary and non-primary). The ability for
 the user is to enter atleast addresses and contacts that are of that type non-primary. Through this piece of X++ code, the user
 can enter non-primary addresses and contacts in Finance and Operations.
+Note: Code resides in the var layer. 
+
+Projects Used:
+DMOD365SampleDev. 
 
 Extensions Used:
 #Data Entities:
