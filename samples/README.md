@@ -1,7 +1,7 @@
 # Dynamics 365 for Finance and Operations Customers and Products integration project
-# Dynamics 365 for Finance and Operations Update 7.3, 8.0 and 8.1 fix
-# Includes the solution file DMOD365SampleDev.sln
-# Model file [DMO D365 Dev]
+# Dynamics 365 for Finance and Operations Update 31
+# Includes the solution file DMOD365SampleDevs
+# Model file [D365DMOSamples]
 
 In Dynamics 365 for Finance and Operations when customers are imported or integrated with external systems there is a flag 
 called IsExternallyMaintained that is set to Yes. This flag sets the addresses (primary and non-primary) to non-editable. 
@@ -15,7 +15,7 @@ can enter non-primary addresses and contacts in Finance and Operations.
 Note: Code resides in the var layer. 
 
 Projects Used:
-DMOD365SampleDev. 
+DMOD365SampleDevs. 
 
 Extensions Used:
 #Data Entities:
@@ -31,18 +31,25 @@ Extensions Used:
   DMO_LogisticsPostalAddress
 
 Also, through this Dynamics 365 for Finance and Operations project, products from Finance and Operations flow into the product catalogue in Sales. 
+#Base Enums:
+ DMORevenueType
 
 Extensions Used:
 #Data Entities:
- EcoResSellableReleasedProductsEntity.DMOSamp 
+ EcoResSellableReleasedProductsEntity.D365DMOSamples 
+ CustCustomerV3Entity.D365DMOSamples
  
 #Staging Table Used:
- EcoResSellableReleasedProductStaging.DMOSamp
- InventTable.DMOSamp
+ CustCustomerV3Staging.D365DMOSamples
+ EcoResSellableReleasedProductStaging.D365DMOSamples
+ InventTable.D365DMOSamples
  
 #Event Handler Used:
  DMO_EcoResSellableProductEntity 
- 
+ DMO_LogisticsContactInfoFrm_EventHandler
+ DMO_LogisticsContactInfoGridFrm_EventHandler
+ DMO_LogisticsPostalAddressFrm_EventHandler
 
-  
- 
+#Label Files
+ D365DMOSamples_en-AU
+ D365DMOSamples_en-US
