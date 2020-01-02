@@ -1,5 +1,5 @@
 # Dynamics 365 for Finance and Operations Customers and Products integration project
-# Dynamics 365 for Finance and Operations Update 7.3, 8.0 and 8.1 fix
+# Dynamics 365 for Finance and Operations Update 31
 # Includes the solution file DMOD365SampleDev.sln
 # Model file [DMO D365 Dev]
 
