@@ -1,7 +1,7 @@
 # Dynamics 365 for Finance and Operations Customers and Products integration project
 # Dynamics 365 for Finance and Operations Update 31
-# Includes the solution file DMOD365SampleDev.sln
-# Model file [DMO D365 Dev]
+# Includes the solution file DMOD365SampleDevs.sln
+# Model file [D365DMOSamples]
 
 In Dynamics 365 for Finance and Operations when customers are imported or integrated with external systems there is a flag 
 called IsExternallyMaintained that is set to Yes. This flag sets the addresses (primary and non-primary) to non-editable. 
