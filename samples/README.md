@@ -19,10 +19,10 @@ DMOD365SampleDevs.
 
 Extensions Used:
 #Data Entities:
-  CustCustomerV3Entity.DMOSamp
+  CustCustomerV3Entity.D365DMOSamples
 
 #Staging Table Used:
-  CustCustomerV3Staging.DMOSamp
+  CustCustomerV3Staging.D365DMOSamples
 
 #Event Handler Used:
   DMO_CustTableFrm_EventHandler
