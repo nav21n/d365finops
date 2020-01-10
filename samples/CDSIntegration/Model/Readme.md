@@ -1,4 +1,6 @@
-#Model store file:D365DMOSamples. Contains the following reference packages.
+#Model store file:D365DMOSamples. 
+
+Contains the following reference packages.
 #ApplicationFoundation
 #ApplicationSuite
 #ApplicationPlatform
